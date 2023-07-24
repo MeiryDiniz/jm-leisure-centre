@@ -13,7 +13,9 @@ body {
 
 /* hedings and logo */
 
-h1, h2, h3 {
+h1,
+h2,
+h3 {
     color: #7a2917;
     font-family: open-san, sans-serif;
     text-transform: uppercase;
@@ -26,10 +28,36 @@ h1, h2, h3 {
     text-align: center;
 }
 
-/* hero */
+/* hero and menu links*/
 
 #hero {
     height: 600px;
     width: 100%;
     overflow: hidden;
+}
+
+#menu-link {
+    font-family: open-san, sans-serif;
+    font-size: 150%;
+    letter-spacing: 2px;
+    text-align: center;
+}
+
+#menu-link li {
+    display: inline-block;
+    list-style-type: none;
+    margin-right: 60px;
+}
+
+#menu-link a {
+    text-decoration: none;
+    color: #7a2917;
+}
+
+#menu-link a:hover {
+    border-bottom: 2px solid #7a2917;
+}
+
+.active-page {
+    border-bottom: 2px solid #7a2917;
 }
