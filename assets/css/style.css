@@ -5,7 +5,7 @@
 }
 
 body {
-    color: #992b15;
+    color: #000000;
     font-family: montserrat, sans-serif;
     font-size: large;
     font-weight: 300;
@@ -13,28 +13,32 @@ body {
 
 /* hedings and logo */
 
-h1,
 h2,
 h3 {
-    color: #7a2917;
-    font-family: open-san, sans-serif;
+    color: #000000;
+    font-family: open san, sans-serif;
     text-transform: uppercase;
     letter-spacing: 2px;
 }
 
 #logo {
-    font-size: 300%;
+    color: antiquewhite;
+    font-family: libre bodoni, serif;
+    font-size: 400%;
     font-weight: 400;
-    margin-bottom: 20px;
+    letter-spacing: 3px;
+    margin-top: 150px;
     text-align: center;
+    text-transform: uppercase;
 }
 
 /* hero and menu links*/
 
 #hero {
-    height: 600px;
+    height: 400px;
     width: 100%;
     overflow: hidden;
+    background-color: #264653;
 }
 
 #menu-link {
@@ -53,13 +57,13 @@ h3 {
 
 #menu-link a {
     text-decoration: none;
-    color: #7a2917;
+    color: #000000;
 }
 
 #menu-link a:hover {
-    border-bottom: 2px solid #7a2917;
+    border-bottom: 2px solid #000000;
 }
 
 .active-page {
-    border-bottom: 2px solid #7a2917;
+    border-bottom: 2px solid #000000;
 }
