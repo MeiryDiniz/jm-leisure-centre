@@ -25,6 +25,7 @@ h3 {
 #logo {
     font-size: 300%;
     font-weight: 400;
+    margin-bottom: 20px;
     text-align: center;
 }
 
@@ -38,8 +39,9 @@ h3 {
 
 #menu-link {
     font-family: open-san, sans-serif;
-    font-size: 150%;
+    font-size: 200%;
     letter-spacing: 2px;
+    margin: 20px 0 20px 0;
     text-align: center;
 }
 
