@@ -7,17 +7,17 @@
 body {
     color: #000000;
     font-family: montserrat, sans-serif;
-    font-size: large;
-    font-weight: 300;
+    font-size: 25px;
+    font-weight: 550;
 }
 
 /* hedings and logo */
 
 h2,
 h3 {
-    color: #000000;
+    color: #023047;
     font-family: open san, sans-serif;
-    text-transform: uppercase;
+    font-weight: 200;
     letter-spacing: 2px;
 }
 
@@ -26,13 +26,13 @@ h3 {
     font-family: libre bodoni, serif;
     font-size: 400%;
     font-weight: 400;
-    letter-spacing: 3px;
+    letter-spacing: 4px;
     margin-top: 150px;
     text-align: center;
     text-transform: uppercase;
 }
 
-/* hero and menu links*/
+/* hero image and menu links*/
 
 #hero {
     height: 400px;
@@ -42,8 +42,10 @@ h3 {
 }
 
 #menu-link {
-    font-family: open-san, sans-serif;
+    color: #023047;
+    font-family: open san, sans-serif;
     font-size: 200%;
+    font-weight: 400;
     letter-spacing: 2px;
     margin: 20px 0 20px 0;
     text-align: center;
@@ -57,13 +59,40 @@ h3 {
 
 #menu-link a {
     text-decoration: none;
-    color: #000000;
+    color: #023047;
 }
 
 #menu-link a:hover {
-    border-bottom: 2px solid #000000;
+    border-bottom: 2px solid #023047;
 }
 
 .active-page {
-    border-bottom: 2px solid #000000;
+    border-bottom: 2px solid #023047;
+}
+
+/* Introduction section */
+
+hr {
+    border-bottom: 2px solid #023047;
+    width: 100%;
+    margin: 5px 5px;
+}
+
+#intro {
+    text-align: justify;
+    margin: 20px 10px;
+}
+
+#right-about {
+    float: right;
+    width: 30%;
+    text-align: center;
+    margin: 40px 10px 20px 0;
+}
+
+.left-about {
+    float: left;
+    width: 30%;
+    margin: 40px 80px 10px 0;
+    text-align: center;
 }
