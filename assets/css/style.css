@@ -27,7 +27,8 @@ h3 {
     font-size: 400%;
     font-weight: 400;
     letter-spacing: 4px;
-    margin-top: 150px;
+    margin: 30px 0;
+    padding: 30px 0;
     text-align: center;
     text-transform: uppercase;
 }
@@ -35,7 +36,7 @@ h3 {
 /* hero image and menu links*/
 
 #hero {
-    height: 400px;
+    height: 250px;
     width: 100%;
     overflow: hidden;
     background-color: #264653;
@@ -95,4 +96,33 @@ hr {
     width: 30%;
     margin: 40px 80px 10px 0;
     text-align: center;
+}
+
+/* Extra activities */
+
+#extra {
+   text-align: center;
+   margin: 0 120px 0 0;
+    
+}
+
+#sunday {
+    background-image: url(../images/istockphoto-1440503559-170667a.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    overflow: hidden;
+}
+
+.activities {
+    color: #000000;
+    background-color: aquamarine;
+    width: 20%;
+    height: 200px;
+    float: left;
+    padding: 30px 0 0 10px;
+    text-align: center;
+    border: 2px solid black;
+    box-sizing: border-box;
 }
