@@ -7,14 +7,15 @@
 body {
     color: #000000;
     font-family: montserrat, sans-serif;
-    font-size: 25px;
+    font-size: 20px;
     font-weight: 300;
 }
 
 /* hedings and logo */
 
 h2,
-h3 {
+h3,
+h4 {
     color: #023047;
     font-family: open san, sans-serif;
     letter-spacing: 2px;
@@ -36,6 +37,7 @@ h3 {
 /* hero image and menu links*/
 
 #hero {
+    border-radius: 10px;
     height: 250px;
     width: 100%;
     overflow: hidden;
@@ -45,7 +47,9 @@ h3 {
 #menu-link {
     color: #023047;
     font-family: open san, sans-serif;
+    font-size: 110%;
     letter-spacing: 2px;
+    line-height: 20px;
     margin: 20px 0 20px 0;
     text-align: center;
 }
@@ -71,6 +75,12 @@ h3 {
 
 /* Introduction section */
 
+.section-hedings {
+    text-align: center;
+    font-size: 200%;
+    /* line-height: 75%; */
+}
+
 hr {
     border-bottom: 2px solid #023047;
     width: 100%;
@@ -87,43 +97,37 @@ hr {
     float: right;
     width: 30%;
     text-align: center;
-    margin: 40px 10px 10px 0;
+    margin: 40px 10px 40px 0;
     padding: 10px 0;
 }
 
 .left-about {
     float: left;
     width: 30%;
-    margin: 40px 80px 10px 0;
+    margin: 40px 80px 40px 0;
     padding: 10px 0;
     text-align: center;
 }
 
+.left-right-about {
+    font-size: 150%;
+}
+
 /* Extra activities */
 
-#extra {
-   text-align: center;
-   margin: 0 120px 0 0;
-   padding: 10px 0 ;
-}
-
-#sunday {
-    background-image: url(../images/istockphoto-1440503559-170667a.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
+#activities-times {
+border-radius: 10px;
+    height: 200px;
     width: 100%;
     overflow: hidden;
+    background-color: #264653;
 }
 
-.activities {
-    color: #000000;
-    background-color: aquamarine;
-    width: 20%;
-    height: 200px;
-    float: left;
-    padding: 30px 0 0 10px;
-    text-align: center;
-    border: 2px solid black;
-    box-sizing: border-box;
+
+/* Footer */
+
+#info {
+    border-bottom: 2px solid #023047;
+    width: 100%;
+    margin: 0 auto;
 }
