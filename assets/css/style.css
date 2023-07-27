@@ -131,18 +131,18 @@ hr {
     text-align: center;
     border: 2px solid #264653;
     box-sizing: border-box;
-    
-   }
 
-   .times h3 {
+}
+
+.times h3 {
     color: antiquewhite;
     margin-top: 5px;
-    
-   }
 
-   .times h4 {
+}
+
+.times h4 {
     color: antiquewhite;
-   }
+}
 
 /* Footer */
 
@@ -163,4 +163,40 @@ footer {
 
 .social-media i {
     color: #023047;
+}
+
+
+/* News page style */
+
+#news-heading {
+    text-align: center;
+    font-size: 200%;
+    line-height: 75%;
+
+}
+
+#news-left {
+    position: relative;
+    left: 900px;
+
+}
+
+#news div {
+    height: 200px;
+    text-align: center;
+    width: 50%;
+}
+
+/* Galery Page */
+
+#galery-page {
+    clear: both;
+    line-height: 1;
+    column-count: 4;
+    column-gap: 0;
+    overflow: hidden;
+}
+
+#galery-image img {
+    width: 100%;
 }
