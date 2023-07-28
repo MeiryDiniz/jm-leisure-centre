@@ -74,17 +74,17 @@ h4 {
 
 /* Introduction section */
 
-.section-hedings {
-    text-align: center;
-    font-size: 200%;
-    line-height: 75%;
-    clear: both;
-}
-
 hr {
     border-bottom: 2px solid #023047;
     width: 100%;
     margin: 5px 5px;
+}
+
+.section-hedings {
+    text-align: center;
+    line-height: 75%;
+    font-size: 200%;
+    clear: both;
 }
 
 #intro {
@@ -166,12 +166,12 @@ footer {
 }
 
 
-/* News page style */
+/* News Page Style */
 
 #news-heading {
-    text-align: center;
+    font-size: 200%;
     line-height: 75%;
-
+    text-align: center;
 }
 
 #news-box {
@@ -189,7 +189,7 @@ footer {
     text-align: center;
 }
 
-/* Galery Page */
+/* Galery Page Style*/
 
 #galery-page {
     clear: both;
@@ -201,4 +201,11 @@ footer {
 
 #galery-image img {
     width: 100%;
+}
+
+/* Contact Us Page Style */
+#contact-heading {
+    font-size: 200%;
+    line-height: 75%;
+    text-align: center;
 }
