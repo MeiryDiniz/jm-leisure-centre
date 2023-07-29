@@ -45,10 +45,46 @@
     <br>
     <!--Contact Us content-->
     <h2 id="contact-heading">Contact Us!</h2>
+    <br>
     <p>Keeping our costumers up to date is essential for us. If you have any question or would like more information
         about our activities or membership, please get in touch with us using the form below. Replays are done as soon
         as possible. Calls are also welcome. We are here Monday to Friday, from 07:00am to 22:00pm, including bank
         holidays.</p>
+    <br>
+    <section>
+           <div id="contact-box">     
+        <form id="contact-form" action="https//formdump.codeinstitute.net" method="post">
+            
+            <fieldset>
+                <legend>Your Details</legend>
+                <label for="fname">Forername</label>
+                <input id="fname" name="fname" type="text" required>
+                <label for="sname">Surname</label>
+                <input id="sname" name="sname" type="text" required>
+            </fieldset>
+          
+            <fieldset>
+                <legend>Contact Information</legend>
+                <label for="nphone">Phone Number</label>
+                <input id="nphone" name="nphone" type="text" required>
+                <label for="email">Email Address</label>
+                <input id="email" name="email" type="email" required>
+            </fieldset>
+            <fieldset>
+                <legend>What does your query relate to?</legend>
+                <label for="info-list">More Information</label>
+                <input list="info" id="info-list" name="info-list" type="text">
+                <datalist>
+                    <option value="Extra-Activities"></option>
+                    <option value="Gym"></option>
+                    <option value="Membership"></option>
+                    <option value="Summer-Camp"></option>
+                    <option value="Other"></option>
+                </datalist>
+            </fieldset>
+        </form>
+        </div>
+    </section>
     <!--Address, open time, contact and social media-->
     <footer class="social-media">
         <h4>kennyon Street, Nenagh, Co. Tipperary, Ireland</h4>
