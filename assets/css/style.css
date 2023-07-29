@@ -5,10 +5,10 @@
 }
 
 body {
-    color: #000000;
+    color: #070505;
     font-family: montserrat, sans-serif;
     font-size: 20px;
-    font-weight: 300;
+    font-weight: 550;
     line-height: 150%;
 }
 
@@ -49,6 +49,7 @@ h4 {
     color: #023047;
     font-family: open san, sans-serif;
     font-size: 100%;
+    font-weight: 200;
     letter-spacing: 2px;
     line-height: 10px;
     margin: 20px 0 20px 0;
@@ -79,7 +80,30 @@ h4 {
 hr {
     border-bottom: 2px solid #023047;
     width: 100%;
-    margin: 5px 5px;
+    margin: 10px;
+}
+
+#intro {
+    text-align: justify;
+    margin: 20px 10px;
+    padding: 10px 0;
+}
+
+#intro a {
+    text-decoration: none;
+}
+
+#intro a:hover {
+    border-bottom: 2px solid #023047;
+    
+}
+
+.about-us {
+    float: right;
+    height: 200px;
+    width: 30%;
+    text-align: center;
+    margin-right: 50px;
 }
 
 .section-hedings {
@@ -89,36 +113,15 @@ hr {
     clear: both;
 }
 
-#intro {
-    text-align: justify;
-    margin: 20px 10px;
-    padding: 10px 0;
-}
-
-#right-about {
-    float: right;
-    width: 30%;
-    text-align: center;
-    margin: 40px 10px 40px 0;
-    padding: 10px 0;
-}
-
-.left-about {
-    float: left;
-    width: 30%;
-    margin: 40px 80px 40px 0;
-    padding: 10px 0;
-    text-align: center;
-}
-
-.left-right-about {
+.about-us-headings {
     font-size: 150%;
+    text-align: center;
 }
 
 /* Extra activities */
 
 #activities-times {
-    margin: 0 1px 0 8px;
+   margin-left: 10px;
 
 }
 
@@ -194,6 +197,14 @@ footer {
     text-align: center;
 }
 
+.news-info a {
+    text-decoration: none;
+}
+
+.news-info a:hover {
+    border-bottom: 2px solid #023047;
+}
+
 /* Galery Page Style*/
 
 #galery-page {
@@ -231,7 +242,7 @@ footer {
     background-size: cover;
     margin: auto;
     height: 900px;
-    width: 90%;
+    width: 100%;
     clear: left;
 }
 
@@ -285,4 +296,8 @@ footer {
 .send-button:hover {
     background-color: antiquewhite;
     color: #023047;
+}
+
+::placeholder {
+    color: antiquewhite;
 }
