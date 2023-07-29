@@ -209,7 +209,7 @@ footer {
 
 #galery-page {
     clear: both;
-    line-height: 1;
+    line-height: 0;
     column-count: 4;
     column-gap: 0;
     overflow: hidden;
@@ -237,7 +237,7 @@ footer {
 }
 
 #contact-box {
-    background: url('../images/flowers-276014_1920.jpg');
+    background: url('../images/flowers-276014_1920.webp');
     background-position: center;
     background-size: cover;
     margin: auto;
