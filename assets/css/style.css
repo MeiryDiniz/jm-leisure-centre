@@ -9,6 +9,7 @@ body {
     font-family: montserrat, sans-serif;
     font-size: 20px;
     font-weight: 300;
+    line-height: 150%;
 }
 
 /* hedings and logo */
@@ -28,7 +29,7 @@ h4 {
     font-size: 300%;
     font-weight: 400;
     letter-spacing: 4px;
-    margin-top: 80px;
+    line-height: 400%;
     text-align: center;
     text-transform: uppercase;
 }
@@ -36,7 +37,8 @@ h4 {
 /* hero image and menu links*/
 
 #hero {
-    border-radius: 10px;
+    border: 3px solid antiquewhite;
+    border-radius: 5px;
     height: 250px;
     width: 100%;
     overflow: hidden;
@@ -46,9 +48,9 @@ h4 {
 #menu-link {
     color: #023047;
     font-family: open san, sans-serif;
-    font-size: 110%;
+    font-size: 100%;
     letter-spacing: 2px;
-    line-height: 20px;
+    line-height: 10px;
     margin: 20px 0 20px 0;
     text-align: center;
 }
@@ -82,7 +84,7 @@ hr {
 
 .section-hedings {
     text-align: center;
-    line-height: 75%;
+    line-height: 100%;
     font-size: 200%;
     clear: both;
 }
@@ -116,32 +118,34 @@ hr {
 /* Extra activities */
 
 #activities-times {
-    margin: 0 5px;
+    margin: 0 1px 0 8px;
 
 }
 
 #activities-times div {
     background-color: rgba(30, 70, 83, .7);
-    border-radius: 10px;
+    border-radius: 5px;
     width: 14%;
-    height: 200px;
+    height: 250px;
     display: inline-block;
     padding-right: 10px;
     vertical-align: top;
     text-align: center;
-    border: 2px solid #264653;
+    border: 3px solid #264653;
     box-sizing: border-box;
 
 }
 
 .times h3 {
     color: antiquewhite;
+    line-height: 150%;
     margin-top: 5px;
 
 }
 
 .times h4 {
     color: antiquewhite;
+    line-height: 150%;
 }
 
 /* Footer */
@@ -153,6 +157,7 @@ footer {
 .social-media {
     text-align: center;
     margin-top: 30px;
+    line-height: 125%;
 }
 
 .social-media li {
@@ -170,22 +175,22 @@ footer {
 
 #news-heading {
     font-size: 200%;
-    line-height: 75%;
+    line-height: 100%;
     text-align: center;
 }
 
 #news-box {
-    height: 400px;
+    height: 500px;
     width: 700px;
     margin: auto;
     background-color: rgba(30, 70, 83, .7);
-    border: 2px solid antiquewhite;
+    border: 3px solid #264653;
+    border-radius: 5%;
 }
 
 .news-info {
     color: antiquewhite;
-    margin: 20px 5px;
-    line-height: 100%;
+    margin: 20px 5px 30px 5px;
     text-align: center;
 }
 
@@ -204,20 +209,80 @@ footer {
 }
 
 /* Contact Us Page Style */
-#contact-heading {
+#contact-us h2 {
     font-size: 200%;
     line-height: 75%;
     text-align: center;
 }
 
-#contact-box {
-    height: 300px;
-    width: 600px;
-    margin: auto;
-    background-color: #264653;
+#form-heading {
+    color: antiquewhite;
+    line-height: 150%;
+    text-align: center;
+}
 
+#contact-us p {
+    text-align: center;
+}
+
+#contact-box {
+    background: url('../images/flowers-276014_1920.jpg');
+    background-position: center;
+    background-size: cover;
+    margin: auto;
+    height: 900px;
+    width: 90%;
+    clear: left;
 }
 
 #contact-form {
     color: antiquewhite;
+    background-color: rgba(38, 70, 83, 0.60);
+    max-width: 400%;
+    margin: 30px 0;
+    position: absolute;
+    left: 10%;
+    padding: 30px;
+}
+
+#tell-more {
+    background: transparent;
+    color: antiquewhite;
+    border: 1px solid antiquewhite;
+    width: 90%;
+    margin: 5px 20px;
+    font-size: 15px;
+}
+
+
+.fill-out {
+    background: transparent;
+    color: antiquewhite;
+    width: 90%;
+    height: 25px;
+    border: 1px solid antiquewhite;
+    margin: 5px 20px;
+}
+
+.around-box {
+    border: 1px solid antiquewhite;
+    margin: 25px;
+}
+
+.send-button {
+    background-color: #264653;
+    color: antiquewhite;
+    border: 1px solid antiquewhite;
+    font-size: 100%;
+    text-align: center;
+    width: 25%;
+    height: 25px;
+    position: absolute;
+    left: 300px;
+    bottom: 15px;
+}
+
+.send-button:hover {
+    background-color: antiquewhite;
+    color: #023047;
 }

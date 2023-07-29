@@ -44,37 +44,39 @@
     </header>
     <br>
     <!--Contact Us content-->
-    <h2 id="contact-heading">Contact Us!</h2>
+    <section id="contact-us">
+        <h2>Contact Us!</h2>
+        <br>
+        <p>Keeping our costumers up to date is essential for us. If you have any question or would like more information
+            about our activities or membership, please get in touch with us using the form below. Replays are done as
+            soon
+            as possible. Calls are also welcome. We are here Monday to Friday, from 07:00am to 22:00pm, including bank
+            holidays.</p>
+    </section>
     <br>
-    <p>Keeping our costumers up to date is essential for us. If you have any question or would like more information
-        about our activities or membership, please get in touch with us using the form below. Replays are done as soon
-        as possible. Calls are also welcome. We are here Monday to Friday, from 07:00am to 22:00pm, including bank
-        holidays.</p>
-    <br>
-    <section>
-           <div id="contact-box">     
-        <form id="contact-form" action="https//formdump.codeinstitute.net" method="post">
-            
-            <fieldset>
+    <section id="contact-box">
+        <form id="contact-form" action="https://formdump.codeinstitute.net/" method="post">
+            <h3 id="form-heading">Send us a message!</h3>
+            <fieldset class="around-box">
                 <legend>Your Details</legend>
                 <label for="fname">Forername</label>
-                <input id="fname" name="fname" type="text" required>
+                <input class="fill-out" id="fname" name="fname" type="text" required>
                 <label for="sname">Surname</label>
-                <input id="sname" name="sname" type="text" required>
+                <input class="fill-out" id="sname" name="sname" type="text" required>
             </fieldset>
-          
-            <fieldset>
+
+            <fieldset class="around-box">
                 <legend>Contact Information</legend>
                 <label for="nphone">Phone Number</label>
-                <input id="nphone" name="nphone" type="text" required>
+                <input class="fill-out" id="nphone" name="nphone" type="tel" required>
                 <label for="email">Email Address</label>
-                <input id="email" name="email" type="email" required>
+                <input class="fill-out" id="email" name="email" type="email" required>
             </fieldset>
-            <fieldset>
+            <fieldset class="around-box">
                 <legend>What does your query relate to?</legend>
-                <label for="info-list">More Information</label>
-                <input list="info" id="info-list" name="info-list" type="text">
-                <datalist>
+                <label for="info-list"></label>
+                <input class="fill-out" type="text" id="info-list" list="info" name="more-info" required>
+                <datalist id="info">
                     <option value="Extra-Activities"></option>
                     <option value="Gym"></option>
                     <option value="Membership"></option>
@@ -82,8 +84,14 @@
                     <option value="Other"></option>
                 </datalist>
             </fieldset>
+            <fieldset class="around-box">
+                <legend>Let us know more about your query!</legend>
+                <label for="query-form"></label>
+                <br>
+                <textarea id="tell-more" id="query-form" cols="80" rows="8"></textarea>
+            </fieldset>
+            <button class="send-button" type="submit"><strong>Send!</strong></button>
         </form>
-        </div>
     </section>
     <!--Address, open time, contact and social media-->
     <footer class="social-media">
