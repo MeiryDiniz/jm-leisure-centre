@@ -212,12 +212,12 @@ footer {
 #galery-page {
     clear: both;
     line-height: 0;
-    column-count: 4;
-    column-gap: 0;
-    overflow: hidden;
+    column-count: 3;
+    column-gap: 0px;
+
 }
 
-#galery-image img {
+#galery-page img {
     width: 100%;
 }
 
@@ -323,10 +323,6 @@ footer {
         width: fit-content;
     }
 
-    #galery-page {
-        column-count: 2;
-    }
-
     #contact-form {
         left: 0;
     }
@@ -344,13 +340,13 @@ footer {
         line-height: 295%;
     }
 
-    #galery-page {
-        column-count: 1;
-    }
-
     #news-box {
         height: 800px;
         width: 350px;
+    }
+
+    #galery-page {
+        column-count: 2;
     }
 
     #contact-form {
@@ -358,8 +354,8 @@ footer {
         padding: 20px;
     }
 
-        .send-button {
-            left: 150px;
-            bottom: 10px;
-        }
+    .send-button {
+        left: 150px;
+        bottom: 10px;
+    }
 }
