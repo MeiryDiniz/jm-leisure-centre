@@ -99,7 +99,8 @@ hr {
 }
 
 .about-us {
-    float: right;
+    display: inline-block;
+    vertical-align: top;
     height: 200px;
     width: 30%;
     text-align: center;
@@ -306,6 +307,7 @@ footer {
 /* Media Queries */
 
 /* For larger to medium screens size from 1200px wide and down */
+
 @media screen and (max-width: 1200px) {
     .about-us {
         width: fit-content;
@@ -328,5 +330,36 @@ footer {
     #contact-form {
         left: 0;
     }
+}
 
+/* For small screen sizes below 800px width */
+@media screen and (max-width: 800px) {
+
+    #menu-link li {
+        margin-right: 10px;
+    }
+
+    #logo {
+        font-size: 250%;
+        line-height: 295%;
+    }
+
+    #galery-page {
+        column-count: 1;
+    }
+
+    #news-box {
+        height: 800px;
+        width: 350px;
+    }
+
+    #contact-form {
+        margin: 30px 0;
+        padding: 20px;
+    }
+
+        .send-button {
+            left: 150px;
+            bottom: 10px;
+        }
 }
