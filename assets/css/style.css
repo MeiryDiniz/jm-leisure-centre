@@ -95,7 +95,7 @@ hr {
 
 #intro a:hover {
     border-bottom: 2px solid #023047;
-    
+
 }
 
 .about-us {
@@ -103,7 +103,8 @@ hr {
     height: 200px;
     width: 30%;
     text-align: center;
-    margin-right: 50px;
+    margin: 20px 10px;
+    padding: 10px;
 }
 
 .section-hedings {
@@ -121,7 +122,7 @@ hr {
 /* Extra activities */
 
 #activities-times {
-   margin-left: 10px;
+    margin-left: 10px;
 
 }
 
@@ -300,4 +301,32 @@ footer {
 
 ::placeholder {
     color: antiquewhite;
+}
+
+/* Media Queries */
+
+/* For larger to medium screens size from 1200px wide and down */
+@media screen and (max-width: 1200px) {
+    .about-us {
+        width: fit-content;
+        margin: 0;
+    }
+
+    hr {
+        display: none;
+    }
+
+    #activities-times div {
+        margin: 5px;
+        width: fit-content;
+    }
+
+    #galery-page {
+        column-count: 2;
+    }
+
+    #contact-form {
+        left: 0;
+    }
+
 }
