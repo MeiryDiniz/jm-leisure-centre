@@ -108,7 +108,7 @@ hr {
     padding: 10px;
 }
 
-.section-hedings {
+.section-headings {
     text-align: center;
     line-height: 100%;
     font-size: 200%;
@@ -178,12 +178,6 @@ footer {
 
 /* News Page Style */
 
-#news-heading {
-    font-size: 200%;
-    line-height: 100%;
-    text-align: center;
-}
-
 #news-box {
     height: 500px;
     width: 700px;
@@ -193,17 +187,17 @@ footer {
     border-radius: 5%;
 }
 
-.news-info {
+#news-box p {
     color: antiquewhite;
     margin: 20px 5px 30px 5px;
     text-align: center;
 }
 
-.news-info a {
+#news-box p a {
     text-decoration: none;
 }
 
-.news-info a:hover {
+#news-box p a:hover {
     border-bottom: 2px solid #023047;
 }
 
@@ -222,11 +216,6 @@ footer {
 }
 
 /* Contact Us Page Style */
-#contact-us h2 {
-    font-size: 200%;
-    line-height: 75%;
-    text-align: center;
-}
 
 #form-heading {
     color: antiquewhite;
@@ -258,7 +247,7 @@ footer {
     padding: 30px;
 }
 
-#tell-more {
+#tell-more textarea {
     background: transparent;
     color: antiquewhite;
     border: 1px solid antiquewhite;
@@ -277,7 +266,7 @@ footer {
     margin: 5px 20px;
 }
 
-.around-box {
+.line-box {
     border: 1px solid antiquewhite;
     margin: 25px;
 }
@@ -329,16 +318,17 @@ footer {
 }
 
 /* For small screen sizes below 800px width */
+
 @media screen and (max-width: 800px) {
+    #logo {
+        font-size: 250%;
+        line-height: 295%;
+    }
 
     #menu-link li {
         margin-right: 10px;
     }
 
-    #logo {
-        font-size: 250%;
-        line-height: 295%;
-    }
 
     #news-box {
         height: 800px;
@@ -357,5 +347,40 @@ footer {
     .send-button {
         left: 150px;
         bottom: 10px;
+    }
+}
+
+/* For small screen sizes below 420px width */
+
+@media screen and (max-width: 420px) {
+    .about-us {
+        height: auto;
+    }
+
+    #menu-link li {
+        line-height: normal;
+    }
+
+    #logo {
+        font-size: 200%;
+        line-height: 200%;
+    }
+
+    #news-box {
+        height: 900px;
+        width: fit-content;
+    }
+
+    #galery-page {
+        column-count: 1;
+    }
+
+    #contact-form {
+        margin: 10px 0;
+        padding: 20px;
+    }
+
+    .send-button {
+        left: 120px;
     }
 }

@@ -6,5 +6,5 @@ On our website you will find the main information about our facilities and servi
 responsive image here
 
 ## Features 
-Being simple but clearly and responsive is essential. The site is well displayed on 
+Being simple but clearly and responsive is essential. 
 
