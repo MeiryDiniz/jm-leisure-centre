@@ -15,7 +15,7 @@ Being simple but clear and responsive, the **JM Leisure Centre** website allows 
   - All pages display on its top the hero with the logo and the navigate links below of it.
   - The navigation bar include links to the four pages, which allows you to easily navigate through all them.
  
- hero image here
+![Hero and Nav Bar](/../jm-leisure-centre/assets/images/readme-md/Screenshot%202023-07-31%20024643.webp)
 
  - _Introduction Section_
   
