@@ -3,7 +3,7 @@
 
 On our website you will find the main information about our facilities and services, such as, our extra activities schedule, all services already available and what is coming up.
 
-responsive image here
+![responsive image]()
 
 ## Features 
 Simple but clear and responsive, the **JM Leisure Centre** website allows easy navigation through its pages.
