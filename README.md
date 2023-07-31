@@ -1,12 +1,12 @@
 # JM Leisure Centre
 JM Leisure Centre is a site created to publicise a **new concept** of leisure centre, and as part of that encourage more people to **join us** and start working out.
 
-On our website you will find the main information about our facilities and services, such as a timetable for our extra activities, all services already available and what is coming up.
+On our website you will find the main information about our facilities and services, such as our extra activities schedule, all services already available and what is coming up.
 
 responsive image here
 
 ## Features 
-Being simple but clear and responsive, the **JM Leisure Centre** website allows easy navigation through its pages.
+Simple but clear and responsive, the **JM Leisure Centre** website allows easy navigation through its pages.
 
 ### Existing Features
 
@@ -15,7 +15,7 @@ Being simple but clear and responsive, the **JM Leisure Centre** website allows 
   - All pages display on its top the hero with the logo and the navigate links below of it.
   - The navigation bar include links to the four pages, which allows you to easily navigate through all them.
  
-![Hero and Nav Bar](/../jm-leisure-centre/assets/images/readme-md/Screenshot%202023-07-31%20024643.webp)
+![Hero and Nav Bar]()
 
  - _Introduction Section_
   
@@ -90,10 +90,13 @@ Visit the website here: [JM LEISURE CENTRE]()
 - The website content was written by the developer.
 - The code used on the Gallery page and the idea for the **Extra Activities** section were taken from the [Code Institute](https://codeinstitute.net/ie/) **Love Running** Project.
 
-## Media
+### Media
 
 - The pictures used on the website were take from [iStock](https://www.istockphoto.com/) and [pixabay](https://pixabay.com/)
 - The icons used on the website were taken from [Font Awesome](https://fontawesome.com/)
 - The fonts used are from [Google Fonts](https://fonts.google.com/)
 - The pictures were converted to _webp_ using [Pixelied](https://pixelied.com/) and [Convertio](https://convertio.co/) 
 - The colors used on the website were taken from [Coolors](https://coolors.co/)
+
+## Wireframe 
+The [Balsamiq Wireframes](https://balsamiq.com/) was used to establish the basic structure of the page.
