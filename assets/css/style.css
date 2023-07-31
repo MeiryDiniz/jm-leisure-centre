@@ -105,7 +105,8 @@ hr {
     width: 30%;
     text-align: center;
     padding: 10px;
-}
+    margin: 5px;
+  }
 
 .section-headings {
     text-align: center;
