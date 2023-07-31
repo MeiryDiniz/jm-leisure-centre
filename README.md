@@ -4,7 +4,7 @@
 On our website you will find the main information about our facilities and services, such as, our extra activities schedule, all services already available and what is coming up.
 
 
-![Responsive Image]()
+![Responsive Image](https://github.com/MeiryDiniz/jm-leisure-centre/blob/main/assets/images/readme-md/Screenshot-2023-07-31-123205.webp)
 
 ## Features
 
@@ -55,7 +55,7 @@ Simple but clear and responsive, the **JM Leisure Centre** website allows easy n
 
   - Also, there is extra irformation about the opening hours and contact number.
 
-  ![Contact Us Page](https://github.com/MeiryDiniz/jm-leisure-centre/blob/main/assets/images/readme-md/Screenshot%202023-07-31%20024057.webp)
+![Contact Us Page](https://github.com/MeiryDiniz/jm-leisure-centre/blob/main/assets/images/readme-md/Screenshot%202023-07-31%20024057.webp)
 
 ## Testing
   - The _contact us_ form was tested and works. It only accepts an email in the email field and the `required` attribute was used on the main fields.
@@ -78,7 +78,7 @@ Simple but clear and responsive, the **JM Leisure Centre** website allows easy n
   - The CSS code was passed through the oficial [Jigsaw Validator](https://jigsaw.w3.org/css-validator/) and didn't have any error returned.
 <<<<<<< HEAD
 
-  ![CSS Validator](https://github.com/MeiryDiniz/jm-leisure-centre/blob/main/assets/images/readme-md/Screenshot%202023-07-31%20025522.webp)
+![CSS Validator](https://github.com/MeiryDiniz/jm-leisure-centre/blob/main/assets/images/readme-md/Screenshot%202023-07-31%20025522.webp)
   
 ## Unfixed Bugs
 
