@@ -15,7 +15,7 @@ JM Leisure Centre is a site created to publicise a **new concept** of leisure ce
 On our website you will find the main information about our facilities and services, such as, our extra activities schedule, all services already available and what is coming up.
 
 
-![Responsive Image]()
+![Responsive Image](https://github.com/MeiryDiniz/jm-leisure-centre/blob/main/assets/images/readme-md/Screenshot%202023-07-31%20115557.webp)
 
 ## Features
 <<<<<<< HEAD
@@ -102,7 +102,7 @@ Simple but clear and responsive, the **JM Leisure Centre** website allows easy n
   - The webpage was tested and works on different browsers such as, Chrome, Firefox, Microsoft Edge and Safari.
   - The website was tested and is responsive displayed in different viewports.
   - The website was run on the _Lighthouse_ tool.
-![Lighthouse]()
+![Lighthouse](https://github.com/MeiryDiniz/jm-leisure-centre/blob/main/assets/images/readme-md/Screenshot%202023-07-31%20113348.webp)
 
 >>>>>>> b0822697a420c1fc84f6531931e5ec0886305e3d
   
