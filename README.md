@@ -56,3 +56,44 @@ news page pictire
   contact us page image 
 
 ## Testing
+  - The contact us form was tested and works. It only accepts an email in the email field and the `required` attribute was used on the main fields.
+  - All clickable links were tested and are working.
+  - The webpage was tested and works on different browsers such as Chrome, Firefox, Microsoft Edge and Safari.
+  - The website was tested and is responsive displayed in different viewports.
+  
+## Validator Testing
+- _HTML_
+  - The HTML code of all pages **(Home, News, Gallery and Contact US)** was passed through the oficial [W3C Validator](https://validator.w3.org/) and just the Contact US page had 2 errors returned that were fixed.
+  
+  image here
+  
+- _CSS_ 
+  - The CSS code was passed through the oficial [Jigsaw Validator](https://jigsaw.w3.org/css-validator/) and didn't have any error returned.
+ 
+## Unfixed Bugs 
+There aren't any bugs to be fixed. 
+
+## Deployment 
+- JM Leisure Centre website was deployed on GitHub pages, using the following steps:
+   
+   1. Choose the repository which you will deploy:
+   2. Click on (Settings) on the top of the page:
+   3. Click on (Pages) on the code automation section of the sidebar:
+   4. On the (Branch) option drop-down, click on (main) and save:
+   5. The process is completed and the page will provide the link to the website.
+
+Visit the website here: [JM LEISURE CENTRE]()   
+
+## Credits
+
+### Content
+- The website content was written by the developer.
+- The code used on the Gallery page and the idea for the **Extra Activities** section were taken from the [Code Institute](https://codeinstitute.net/ie/) **Love Running** Project.
+
+## Media
+
+- The pictures used on the website were take from [iStock](https://www.istockphoto.com/) and [pixabay](https://pixabay.com/)
+- The icons used on the website were taken from [Font Awesome](https://fontawesome.com/)
+- The fonts used are from [Google Fonts](https://fonts.google.com/)
+- The pictures were converted to _webp_ using [Pixelied](https://pixelied.com/) and [Convertio](https://convertio.co/) 
+- The colors used on the website were taken from [Coolors](https://coolors.co/)
