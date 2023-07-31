@@ -1,11 +1,10 @@
-<<<<<<< HEAD
 # JM Leisure Centre
 
 JM Leisure Centre is a site created to publicise a **new concept** of leisure centre, and as part of that encourage more people to **join us** and start working out.
-=======
+
 # JM LEISURE CENTRE
+
 **JM Leisure Centre** is a site created to publicise a **new concept** of leisure centre, and as part of that encourage more people to **join us** and start working out.
->>>>>>> 4b3b3adc07cb83b13cdb8a80017cdf3e456efc47
 
 On our website you will find the main information about our facilities and services, such as, our extra activities schedule, all services already available and what is coming up.
 
@@ -13,9 +12,8 @@ On our website you will find the main information about our facilities and servi
 ![Responsive Image]()
 
 ## Features
-=======
+
 ![responsive image]()
->>>>>>> 4b3b3adc07cb83b13cdb8a80017cdf3e456efc47
 
 Simple but clear and responsive, the **JM Leisure Centre** website allows easy navigation through its pages.
 
@@ -25,11 +23,9 @@ Simple but clear and responsive, the **JM Leisure Centre** website allows easy n
   
   - All pages display on its top the hero with the logo and the navigate links below of it.
   - The navigation bar include links to the four pages, which allows you to easily navigate through all them.
-<<<<<<< HEAD
 
 ![Hero and Nav Bar]()
-=======
- 
+
 ![Hero and Nav Bar](https://github.com/MeiryDiniz/jm-leisure-centre/blob/main/assets/images/readme-md/Screenshot%202023-07-31%20024643.webp)
 >>>>>>> 4b3b3adc07cb83b13cdb8a80017cdf3e456efc47
 
@@ -65,34 +61,20 @@ Simple but clear and responsive, the **JM Leisure Centre** website allows easy n
 
 - _The Contact Us Page_
 
-<<<<<<< HEAD
   - The contact us page, allows users to send their queries and also include a message to ask for more information about the services available or anything else which they would like to know.
 
   - Also, there is extra irformation about the opening hours and contact number.
 
-  contact us page image
+  ![Contact Us Page](https://github.com/MeiryDiniz/jm-leisure-centre/blob/main/assets/images/readme-md/Screenshot%202023-07-31%20024057.webp)
 
 ## Testing
 
-- The contact us form was tested and works. It only accepts an email in the email field and the `required` attribute was used on the main fields.
-- All clickable links were tested and are working.
-- The webpage was tested and works on different browsers such as Chrome, Firefox, Microsoft Edge and Safari.
-- The website was tested and is responsive displayed in different viewports.
-=======
-     - The _contact us_ page, allows users to send their queries and also include a message to ask for more information about the services available or anything else which they would like to know.
-     
-     - Also, there is extra irformation about the opening hours and contact number.
-     
-  ![Contact Us Page](https://github.com/MeiryDiniz/jm-leisure-centre/blob/main/assets/images/readme-md/Screenshot%202023-07-31%20024114.webp) 
-
-## Testing
-  - The _contact us_ form was tested and works. It only accepts an email in the email field and the `required` attribute was used on the main fields.
+- The _contact us_ form was tested and works. It only accepts an email in the email field and the `required` attribute was used on the main fields.
 ![Contact Form](https://github.com/MeiryDiniz/jm-leisure-centre/blob/main/assets/images/readme-md/Screenshot%202023-07-30%20225528.webp)
 ![Required Attribute Test](https://github.com/MeiryDiniz/jm-leisure-centre/blob/main/assets/images/readme-md/Screenshot%202023-07-29%20160736.webp)
-  - All links were tested and are working.
-  - The webpage was tested and works on different browsers such as, Chrome, Firefox, Microsoft Edge and Safari.
-  - The website was tested and is responsive displayed in different viewports.
->>>>>>> 4b3b3adc07cb83b13cdb8a80017cdf3e456efc47
+- All clickAable links were tested and are working.
+- The webpage was tested and works on different browsers such as, Chrome, Firefox, Microsoft Edge and Safari.
+- The website was tested and is responsive displayed in different viewports.
   
 ## Validator Testing
 
@@ -103,13 +85,12 @@ Simple but clear and responsive, the **JM Leisure Centre** website allows easy n
   
 - _CSS_
   - The CSS code was passed through the oficial [Jigsaw Validator](https://jigsaw.w3.org/css-validator/) and didn't have any error returned.
-<<<<<<< HEAD
-=======
 
-  ![CSS Validator](https://github.com/MeiryDiniz/jm-leisure-centre/blob/main/assets/images/readme-md/Screenshot%202023-07-31%20025522.webp) 
- 
-## Unfixed Bugs 
-There aren't any bugs to be fixed. 
+  ![CSS Validator](https://github.com/MeiryDiniz/jm-leisure-centre/blob/main/assets/images/readme-md/Screenshot%202023-07-31%20025522.webp)
+
+## Unfixed Bugs
+
+There aren't any bugs to be fixed.
 >>>>>>> 4b3b3adc07cb83b13cdb8a80017cdf3e456efc47
 
 ## Unfixed Bugs
