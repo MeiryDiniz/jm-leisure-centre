@@ -12,6 +12,14 @@ body {
     line-height: 150%;
 }
 
+/* index.html, gallery.html, news.html and contact.html style */
+
+.background-img {
+    background: url('https: //images.template.net/105141/free-simple-summer-background-f9rcv.jpg') no-repeat center center;
+    overflow-x: hidden;
+    background-attachment: fixed;
+}
+
 /* hedings and logo */
 
 h2,
