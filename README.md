@@ -4,7 +4,7 @@
 On our website you will find the main information about our facilities and services, such as, our extra activities schedule, all services already available and what is coming up.
 
 
-![Responsive Image](https://github.com/MeiryDiniz/jm-leisure-centre/blob/main/assets/images/readme-md/Screenshot-2023-07-31-123205.webp)
+![Responsive Image](https://github.com/MeiryDiniz/jm-leisure-centre/blob/main/assets/images/readme-md/Responsive_image.webp)
 
 ## Features
 
@@ -66,7 +66,10 @@ The website also has a customised 404 page.
   - The webpage was tested and works on different browsers such as, Chrome, Firefox, Microsoft Edge and Safari.
   - The website was tested and is responsive displayed in different viewports.
   - All pages of the website were run on the _Lighthouse_ tool.
-![Lighthouse](https://github.com/MeiryDiniz/jm-leisure-centre/blob/main/assets/images/readme-md/Screenshot%202023-07-31%20113348.webp)
+![Lighthouse](https://github.com/MeiryDiniz/jm-leisure-centre/blob/main/assets/images/readme-md/Home_page.webp)
+![Lighthouse](https://github.com/MeiryDiniz/jm-leisure-centre/blob/main/assets/images/readme-md/News_page.webp)
+![Lighthouse](https://github.com/MeiryDiniz/jm-leisure-centre/blob/main/assets/images/readme-md/Gallery_page.webp)
+![Lighthouse](https://github.com/MeiryDiniz/jm-leisure-centre/blob/main/assets/images/readme-md/Contact_page.webp)
 
 ## Validator Testing
 
