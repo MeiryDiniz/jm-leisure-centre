@@ -13,40 +13,37 @@
         body {
             background-image: url("https://images.template.net/105141/free-simple-summer-background-f9rcv.jpg");
             background-size: cover;
-            font-family: "open san", "sans-serif";            
+            font-family: "open san", "sans-serif";
         }
 
-        main {
-            display: block;
-            height: 100;
-            /* justify-content: center;
-            align-items: center; */
-            margin: auto;
-        }
-
-        .header404 {
+        #header404 {
             font-family: "libre bodoni", "sans-serif";
             font-size: 150px;
+            text-align: center;
         }
 
         .content404 {
-            text-align: center;
-            font-size: 60px;
+            position: absolute;
+            top: 70%;
+            left: 20%;
+            padding: 10px;
+        }
+
+        .content404 p {
+            font-size: 20px;
+            text-align: center;            
         }
     </style>
 </head>
 
 <body>
     <main>
-        <h4 class="header404">404</h4>
-        <div class="content-404">
-            Sorry! We couldn't find the page you are looking for!
-        </div>
-        <div>
-            <a href="https://meirydiniz.github.io/jm-leisure-centre/">Check our home page</a>            
-        </div>
-        <div>
-            <p>
+        <h4 id="header404">404</h4>
+        <div class="content404">
+            <p > Sorry! We couldn't find the page you are looking for!
+                <a href="https://meirydiniz.github.io/jm-leisure-centre/">Check our home page</a>
+            </p>
+            <p >
                 If it is still not working:
                 <a href="https://www.google.com/">Click here</a>
             </p>
