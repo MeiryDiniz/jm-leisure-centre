@@ -24,8 +24,10 @@
     <!--Logo, hero image and menu links-->
     <header>
         <div id="hero">
-            <h1 id="logo"><i class="fa-solid fa-tree"></i> jm leisure centre <i class="fa-solid fa-person-walking"></i>
-            </h1>
+            <a href="index.html" id="page-link">
+                <h1 id="logo"><i class="fa-solid fa-tree"></i> jm leisure centre <i class="fa-solid fa-person-walking"></i>
+                </h1>
+            </a>    
         </div>
         <nav>
             <ul id="menu-link">
@@ -62,22 +64,22 @@
             <fieldset class="line-box">
                 <legend>Your Details</legend>
                 <label for="fname">Forername</label>
-                <input class="fill-out" id="fname" name="fname" type="text" required>
+                <input class="fill-out" id="fname" name="fname" type="text" placeholder="Type your forename here" required>
                 <label for="sname">Surname</label>
-                <input class="fill-out" id="sname" name="sname" type="text" required>
+                <input class="fill-out" id="sname" name="sname" type="text" placeholder="Type your surname here" required>
             </fieldset>
 
             <fieldset class="line-box">
                 <legend>Contact Information</legend>
                 <label for="nphone">Phone Number</label>
-                <input class="fill-out" id="nphone" name="nphone" type="tel" required>
+                <input class="fill-out" id="nphone" name="nphone" type="tel" placeholder="Type your phone number here" required>
                 <label for="email">Email Address</label>
-                <input class="fill-out" id="email" name="email" type="email" required>
+                <input class="fill-out" id="email" name="email" type="email" placeholder="Type your email address here" required>
             </fieldset>
             <fieldset class="line-box">
                 <legend>What does your query relate to?</legend>
                 <label for="info-list"></label>
-                <input class="fill-out" type="text" id="info-list" list="info" name="more-info" required>
+                <input class="fill-out" type="text" id="info-list" list="info" name="more-info" placeholder="Choose your query's topic" required>
                 <datalist id="info">
                     <option value="Extra-Activities"></option>
                     <option value="Gym"></option>
@@ -90,7 +92,7 @@
                 <legend>Let us know more about your query!</legend>
                 <label for="query-form"></label>
                 <br>
-                <textarea id="query-form" cols="80" rows="8" placeholder="Your Message"></textarea>
+                <textarea id="query-form" cols="80" rows="8" placeholder="Your Message" required></textarea>
             </fieldset>
             <button class="send-button" type="submit"><strong>Send!</strong></button>
         </form>

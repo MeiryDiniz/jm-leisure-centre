@@ -15,7 +15,7 @@ The website also has a customised 404 page.
 
 - _Hero and Navigation Bar_
   
-  - All pages display on its top the hero with the logo and the navigate links below of it.
+  - All pages display on its top the hero with a clickble logo and the navigate links of the page are below of it.
   - The navigation bar include links to the four pages, which allows you to easily navigate through all them.
 
 ![Hero and Nav Bar](https://github.com/MeiryDiniz/jm-leisure-centre/blob/main/assets/images/readme-md/Screenshot%202023-07-31%20024643.webp)
@@ -65,7 +65,7 @@ The website also has a customised 404 page.
   - All links were tested and are working.
   - The webpage was tested and works on different browsers such as, Chrome, Firefox, Microsoft Edge and Safari.
   - The website was tested and is responsive displayed in different viewports.
-  - The website was run on the _Lighthouse_ tool.
+  - All pages of the website were run on the _Lighthouse_ tool.
 ![Lighthouse](https://github.com/MeiryDiniz/jm-leisure-centre/blob/main/assets/images/readme-md/Screenshot%202023-07-31%20113348.webp)
 
 ## Validator Testing

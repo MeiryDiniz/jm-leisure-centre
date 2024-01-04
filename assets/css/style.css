@@ -54,6 +54,16 @@ h4 {
     background-color: #264653;
 }
 
+#page-link {
+    /* list-style-type: none; */
+    text-decoration: none;
+    /* color: antiquewhite; */
+}
+
+#page-link a:hover {
+    border-bottom: 2px solid antiquewhite;
+}
+
 #menu-link {
     color: #023047;
     font-family: open san, sans-serif;
@@ -304,25 +314,33 @@ footer {
 
 /* Media Queries */
 
-/* For larger to medium screens size from 1200px wide and down */
+/* For larger to medium screens size from 1600px wide and down */
 
-@media screen and (max-width: 1200px) {
-    .about-us {
-        width: fit-content;
-        margin: 0;
-    }
-
+@media screen and (max-width: 1600px) {
     hr {
         display: none;
     }
 
     #activities-times div {
-        margin: 5px;
-        width: fit-content;
+        margin: auto;
+        width: 50%;
+        display: block;
+        height: initial;
     }
 
     #contact-form {
         left: 0;
+    }
+}
+
+/* For larger to medium screens size from 1100px wide and down */
+
+@media screen and (max-width: 1100px) {
+    .about-us {
+        display: block;
+        height: fit-content;
+        width: 90%;
+        margin: auto;
     }
 }
 
@@ -337,7 +355,6 @@ footer {
     #menu-link li {
         margin-right: 10px;
     }
-
 
     #news-box {
         height: 800px;
@@ -362,9 +379,9 @@ footer {
 /* For small screen sizes below 420px width */
 
 @media screen and (max-width: 420px) {
-    .about-us {
-        height: auto;
-    }
+    h2 {
+        letter-spacing: normal;
+    }    
 
     #menu-link li {
         line-height: normal;
@@ -373,6 +390,10 @@ footer {
     #logo {
         font-size: 200%;
         line-height: 200%;
+    }
+
+    #activities-times div {        
+        width: 80%;        
     }
 
     #news-box {
