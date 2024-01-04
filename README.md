@@ -9,6 +9,7 @@ On our website you will find the main information about our facilities and servi
 ## Features
 
 Simple but clear and responsive, the **JM Leisure Centre** website allows easy navigation through its pages.
+The website also has a customised 404 page.
 
 ### Existing Features
 
@@ -105,11 +106,13 @@ Visit the website here: [JM LEISURE CENTRE](https://meirydiniz.github.io/jm-leis
 
 ### Media
 
-- The pictures used on the website were take from [iStock](https://www.istockphoto.com/) and [pixabay](https://pixabay.com/)
+- The pictures used on the website were taken from [iStock](https://www.istockphoto.com/) and [pixabay](https://pixabay.com/)
 - The icons used on the website were taken from [Font Awesome](https://fontawesome.com/)
 - The fonts used are from [Google Fonts](https://fonts.google.com/)
 - The pictures were converted to _webp_ using [Pixelied](https://pixelied.com/) and [Convertio](https://convertio.co/)
 - The colors used on the website were taken from [Coolors](https://coolors.co/)
+- The favicon was generated on [Favicon Fenerator](https://realfavicongenerator.net/)
+- The image for the favicon was taken from [Vecteezy](https://www.vecteezy.com/)
 
 ## Wireframe
 

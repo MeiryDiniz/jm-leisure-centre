@@ -15,8 +15,9 @@ body {
 /* index.html, gallery.html, news.html and contact.html style */
 
 .background-img {
-    background: url("../images/jm-leisure-centre/leisure-centre-background.webp") no-repeat center center;
+    background: url("../images/jm-leisure-centre/image-background.webp") no-repeat center center;
     overflow-x: hidden;
+    background-size: cover;
     background-attachment: fixed;
 }
 
