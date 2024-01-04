@@ -10,6 +10,7 @@ On our website you will find the main information about our facilities and servi
 
 Simple but clear and responsive, the **JM Leisure Centre** website allows easy navigation through its pages.
 The website also has a customised 404 page.
+![Page 404Image](https://github.com/MeiryDiniz/jm-leisure-centre/blob/main/assets/images/readme-md/Page-404.webp)
 
 ### Existing Features
 
